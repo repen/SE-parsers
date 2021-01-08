@@ -3,6 +3,10 @@ name: SE#02
 author: Andrey Plugin
 email: 9keepa@gmail.com
 link: https://www.youtube.com/channel/UCNN3bpPlWWUkUMB7gjcUFlw
+
+Copyright 2019-2021 Andrey Plugin (9keepa@gmail.com)
+Licensed under the Apache License v2.0
+http://www.apache.org/licenses/LICENSE-2.0
 '''
 
 import time
@@ -12,7 +16,7 @@ from bs4 import BeautifulSoup #pip install bs4
 driver = webdriver.Firefox()
 
 driver.get("https://www.myscore.ru/")
-
+time.sleep(2)
 elements = driver.find_elements_by_css_selector("div.tabs__tab")
 elements[1].click()
 
