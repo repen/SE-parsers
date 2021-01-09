@@ -3,6 +3,9 @@ name: SE#02
 author: Andrey Plugin
 email: 9keepa@gmail.com
 link: https://www.youtube.com/channel/UCNN3bpPlWWUkUMB7gjcUFlw
+
+Copyright (c) 2019 - 2021 Andrey Plugin (9keepa@gmail.com)
+Licensed under the MIT License https://github.com/repen/E-parsers/blob/master/License
 '''
 
 import time

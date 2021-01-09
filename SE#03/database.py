@@ -1,3 +1,7 @@
+"""
+Copyright (c) 2019 - 2021 Andrey Plugin (9keepa@gmail.com)
+Licensed under the MIT License https://github.com/repen/E-parsers/blob/master/License
+"""
 import sqlite3, os
 
 # PATH = "C:/Users/terminator/Desktop/Scripts/EFS"
@@ -46,7 +50,7 @@ class Database:
 
 if __name__ == '__main__':
     db = Database("/home/repente/prog/python/youtube/parsers/SE00/SE#03/myscore.db")
-    # db.write("CREATE TABLE match (id_match TEXT, url TEXT, status INTEGER)")
-    result = db.read("SELECT url FROM match", all = True)
-    for url in result:
-        print(url[0])
+    db.write("CREATE TABLE match (id_match TEXT, url TEXT, status INTEGER)")
+    # result = db.read("SELECT url FROM match", all = True)
+    # for url in result:
+    #     print(url[0])
